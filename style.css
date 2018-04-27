@@ -77,8 +77,19 @@ form {
 	color: white;
 }
 
-input {
+input[type=text] {
     border: 3px solid #F5F5EF;
     border-radius: 4px;
-    padding: 0.5%;
+    padding: 0.3%;
+
+}
+
+input[type=submit] {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1%;
+    color: #404040;
+    background-color: #F5F5EF;
+    font-weight: bold;
+
 }
