@@ -9,7 +9,7 @@ header {
     color: #E65C00;
     background-color: #F5F5EF;
     text-align: center;
-    padding-top: 1%;
+    padding: 1% 0 1% 0;
 }
 
 
@@ -58,4 +58,27 @@ img {
 
 .contentbox h3 {
 	color: white;
+}
+
+.formbox {
+	background-color: #003366;
+}
+
+.printedcalculation {
+	width: 100%;
+}
+
+p {
+	padding: 1% 0 1% 0;
+}
+
+form {
+	text-align: center;
+	color: white;
+}
+
+input {
+    border: 3px solid #F5F5EF;
+    border-radius: 4px;
+    padding: 0.5%;
 }
