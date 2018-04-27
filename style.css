@@ -27,7 +27,7 @@ header {
 }
 
 .rowtitle h2 {
-color: #001A66;
+    color: #001A66;
 }
 
 .rowtitle,
@@ -57,31 +57,35 @@ img {
 
 
 .contentbox h3 {
-	color: white;
+    color: white;
 }
 
 .formbox {
-	background-color: #003366;
+    background-color: #003366;
+    padding: 2% 0 2% 0;
 }
 
 .printedcalculation {
-	width: 100%;
+    width: 100%;
 }
 
 p {
-	padding: 1% 0 1% 0;
+    padding: 1% 0 1% 0;
 }
 
 form {
-	text-align: center;
-	color: white;
+    text-align: center;
+    color: white;
 }
 
 input[type=text] {
     border: 3px solid #F5F5EF;
     border-radius: 4px;
     padding: 0.3%;
+}
 
+select {
+    padding: 0.3%;
 }
 
 input[type=submit] {
@@ -91,5 +95,4 @@ input[type=submit] {
     color: #404040;
     background-color: #F5F5EF;
     font-weight: bold;
-
 }

@@ -14,20 +14,21 @@
     </header>
     <div class="container">
         <div class="formbox">
-            <form>
-                <p>Your Name: <input type="text" name="name"></p>
-                <p>Age: <input type="text" name="age"></p>
-                <p>Country: <input type="text" name="country"></p>
-                <p>Horsepower: <input type="text" name="horsepower"></p>
+            <form onsubmit="calculateInsurance()">
+                <p>Your Name: <input type="text" name="name" id="name"></p>
+                <p>Age: <input type="text" name="age" id="age"></p>
+                <p>Country: <input type="text" name="country" id="country"></p>
+                <p>Horsepower: <input type="text" name="horsepower" id="horsepower"></p>
                 <input type="submit" value="Calculate">
             </form>
         </div>
         <div class="printedcalculation">
-            <h4>
-            </h4>
+            <p id="printcal">
+            </p>
         </div>
     </div>
-    
+
+<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>  
 </body>
 
 </html>
