@@ -70,8 +70,11 @@ img {
 .contentbox h3 {
   color: white; }
 
-input[type=button], input[type=submit] {
+button, input[type=submit] {
   border: 1px solid #404040;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
   border-radius: 4px;
   padding: 1%;
   color: #404040;

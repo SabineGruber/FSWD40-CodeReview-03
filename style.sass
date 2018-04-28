@@ -1,6 +1,12 @@
 @import variables
 @import calculatestyle
 
+@mixin border-radius($radius) 
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
+
 *
 	margin: 0
 	padding: 0
@@ -56,9 +62,9 @@ img
 .contentbox h3 
 	color: white
 
-input[type=button]
+button
 	border: 1px solid #404040
-	border-radius: 4px
+	@include border-radius(4px)
 	padding: 1%
 	color: #404040
 	background-color: #F5F5EF
