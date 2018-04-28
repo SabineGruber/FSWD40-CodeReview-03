@@ -12,11 +12,12 @@ function calculateInsurance() {
         var insurance = y * 150 / (x + 2) + 50;
         
     } else {
+        alert("Not available in your country");
         //console.log("Not available in your country");
         //document.getElementById("printcal").innerHTML = "Not available in your country";
     }
+        alert(insurance);
         //console.log(insurance);
         //document.getElementById("printcal").innerHTML = insurance;
-        document.write(insurance);
+        //document.write(insurance);
 }
-
